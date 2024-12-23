@@ -1,4 +1,4 @@
-user_input = input('masukkan nama anda .. ')
-reps = int(input('berapa kali anda ingin mengulang .. '))
+userI = input('apa yang ingin kamu ulang.. ')
+reps = int(input('anda ingin mengulang brp kali.. '))
 for i in range(reps):
-    print('hai, selamat datang', user_input, reps, 'x')
+    print(userI, reps, 'x')

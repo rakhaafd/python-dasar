@@ -1,7 +1,10 @@
-# count = 0
-# while count < 5:
-#     print("Ini adalah pengulangan ke-", count + 1)
-#     count += 1
+userInput = input('masukkan kata yang ingin anda pakai.. ')
+userCount = int(input('masukkan count anda.. '))
+i = 0
+while i < userCount:
+    print(userInput, i + 1, 'x')
+    i += 1
+
 #     # Ini adalah pengulangan ke-1
 #     # Ini adalah pengulangan ke-2
 #     # Ini adalah pengulangan ke-3

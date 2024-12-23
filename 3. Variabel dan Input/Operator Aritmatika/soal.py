@@ -1,9 +1,8 @@
-# projek menghitung kecepatan
-jarak = float(input("masukan jarak (m): "))
-waktu = float(input("masukan waktu (s): "))
+jarak = float(input('masukkan jarak dalam satuan m.. '))
+waktu = float(input('masukkan waku dalam satuan s.. '))
 
-if waktu != 0:
-    kecepatan = jarak / waktu  # Indentasi ditambahkan
-    print("kecepatan =", kecepatan, "m/s")  # Menggunakan indentasi yang tepat
+if waktu !=0:
+    kecepatan = jarak / waktu
+    print('kecepatan anda adalah', kecepatan, 'm/s')
 else:
-    print("waktu tidak boleh 0")
+    print('kecepatan tidak boleh 0')

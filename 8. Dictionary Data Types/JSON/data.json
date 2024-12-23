@@ -1,0 +1,16 @@
+{
+    "name": "Rakha",
+    "age": 17,
+    "is_student": true,
+    "is_employed": false,
+    "address": null,
+    "hobbies": [
+        "coding",
+        "designing",
+        "traveling"
+    ],
+    "grades": {
+        "math": 95,
+        "english": 88
+    }
+}

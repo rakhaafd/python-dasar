@@ -1,19 +1,21 @@
-# simple calc
-num1 = int(input('masukkan integer pertama anda .. '))
-num2 = int(input('masukkan integer kedua anda .. '))
+num1 = int(input('masukkan angka pertama anda.. '))
+num2 = int(input('masukkan angka kedua anda.. '))
 
-def func(num1, num2):
-    operasi = input('masukkan operasi yang anda inginkan ..\n+\n-\n*\n/\n ...')
+def calc(n1, n2):
+    opr = input('input ur operation.. ')
+    if opr == '+':
+        print(n1 + n2)
 
-    if operasi == '+':
-        print(num1 + num2)
-    elif operasi == '-':
-        print(num1 - num2)
-    elif operasi == '*':
-        print(num1 * num2)
-    elif operasi == '/':
-        print(num1 / num2)
+    elif opr == '-':
+        print(n1 + n2)
+
+    elif opr == '*':
+        print(n1 * n2)
+
+    elif opr == '/':
+        print(n1 / n2)
+
     else:
-        print('operasi yang anda masukkan tidak tersedia')
+        print('operasi anda salah')
 
-func(num1, num2)
+calc(num1, num2)

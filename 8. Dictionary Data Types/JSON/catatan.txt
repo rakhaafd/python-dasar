@@ -1,0 +1,3 @@
+jadi, fungsi .loads() dalam python itu untuk mengubah json menjadi dictionary. nahh sedangkan .load() berfungsi untuk mengimpor file JSON untuk digunakan ke python
+
+lalu, fungsi .dumps() dalam python itu untuk mengubah dictionary menjadi JSON. nahh sedangkan .dump () berfungsi untuk mengekspor file JSON
