@@ -20,5 +20,7 @@ y = copy.deepcopy(x)
 y['a']['python'] = 'HTML5'
 print(y)
 print(x)
+print(x is y)
+print(x == y)
 
 #kita bisa merubah value dari dictionary y dan value dalam dictionary x tidak berubah.

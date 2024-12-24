@@ -45,8 +45,7 @@ print(inventory)
 
 # soal 5
 employees = {'John': 5000, 'Jane': 6000, 'Doe': 4500, 'Alice': 7000}
-
-l = [inilist for inilist in employees.keys()]
+l = list(employees.keys())
 print(l)
 
 allval = sum(employees.values())
